@@ -1,5 +1,7 @@
 plugins {
     kotlin("jvm") version "1.9.22"
+    application
+    id("org.graalvm.buildtools.native") version "0.9.28"
     id("com.diffplug.spotless") version "6.23.3"
 }
 
@@ -12,16 +14,40 @@ repositories {
 }
 
 dependencies {
-    implementation("org.gitlab4j:gitlab4j-api:5.4.0")
+    implementation("org.gitlab4j:gitlab4j-api:5.5.0")
     implementation("com.github.ajalt.clikt:clikt:4.2.1")
-    testImplementation(platform("io.kotest:kotest-bom:5.8.0"))
-    testImplementation("io.kotest:kotest-runner-junit5")
-    testImplementation("io.kotest:kotest-framework-datatest")
-    testImplementation("io.kotest.extensions:kotest-extensions-wiremock:2.0.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
+    testImplementation("org.wiremock:wiremock:3.3.1")
 }
 
-tasks.withType<Test>().configureEach {
-    useJUnitPlatform()
+application {
+    mainClass = "io.github.helpermethod.plumber.PlumberKt"
+}
+
+graalvmNative {
+    metadataRepository {
+        enabled = true
+    }
+    agent {
+        metadataCopy {
+            mergeWithExisting = true
+            inputTaskNames.add("test")
+            outputDirectories.add("src/main/resources/META-INF/native-image/plumber")
+        }
+        accessFilterFiles.from("src/main/access-filter.json")
+    }
+    binaries {
+        named("main") {
+            buildArgs("--enable-http", "--enable-https")
+        }
+        named("test") {
+            buildArgs(
+                "--initialize-at-build-time=kotlin.annotation.AnnotationRetention,kotlin.annotation.AnnotationTarget",
+                "--enable-http",
+                "--enable-https"
+            )
+        }
+    }
 }
 
 spotless {
@@ -31,4 +57,8 @@ spotless {
     kotlinGradle {
         ktlint()
     }
+}
+
+tasks.withType<Test>().configureEach {
+    useJUnitPlatform()
 }

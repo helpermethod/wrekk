@@ -1,4 +1,4 @@
-package io.github.helpermethod.plumber
+package io.github.helpermethod.wipr
 
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.options.convert
@@ -11,9 +11,10 @@ import org.gitlab4j.api.models.Pipeline
 import org.gitlab4j.api.models.PipelineFilter
 import java.time.Instant
 import java.util.Date
+import java.util.concurrent.atomic.AtomicLong
 import java.util.stream.Stream
 
-class Plumber : CliktCommand() {
+class Wipr : CliktCommand() {
     private val gitlabServerUrl by option(help = "The GitLab server URL.").required()
     private val personalAccessToken by option(help = "The personal access token.").required()
     private val projectId by option(help = "The project ID.").long().required()
@@ -31,7 +32,9 @@ class Plumber : CliktCommand() {
                     withUpdatedBefore(updatedBefore)
                 }
                 .parallel()
-                .map { it.id }
+                .map {
+                    it.id
+                }
                 .forEach { pipelineId ->
                     gitLabApi
                         .pipelineApi
@@ -47,5 +50,5 @@ private fun PipelineApi.getPipelinesStream(
 ): Stream<Pipeline> = getPipelinesStream(projectId, PipelineFilter().apply(filter))
 
 fun main(args: Array<String>) {
-    Plumber().main(args)
+    Wipr().main(args)
 }
