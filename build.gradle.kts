@@ -34,7 +34,6 @@ graalvmNative {
             inputTaskNames.add("test")
             outputDirectories.add("src/main/resources/META-INF/native-image/plumber")
         }
-        accessFilterFiles.from("src/main/access-filter.json")
     }
     binaries {
         named("main") {

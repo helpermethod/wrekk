@@ -20,7 +20,7 @@ import org.junit.jupiter.params.provider.MethodSource
 import java.util.stream.Stream
 
 @WireMockTest
-class WrekkrTests {
+class WrekkTests {
     @Test
     fun `should display usage instructions if no options are provided`() {
         val result = Wrekk().test()

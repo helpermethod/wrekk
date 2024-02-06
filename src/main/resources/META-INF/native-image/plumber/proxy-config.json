@@ -1,8 +1,0 @@
-[
-  {
-    "interfaces":[]
-  },
-  {
-    "interfaces":["com.github.ajalt.mordant.internal.jna.MacosLibC"]
-  }
-]
