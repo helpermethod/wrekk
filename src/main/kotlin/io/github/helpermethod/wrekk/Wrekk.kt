@@ -1,4 +1,4 @@
-package io.github.helpermethod.wipr
+package io.github.helpermethod.wrekk
 
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.options.convert
@@ -11,10 +11,9 @@ import org.gitlab4j.api.models.Pipeline
 import org.gitlab4j.api.models.PipelineFilter
 import java.time.Instant
 import java.util.Date
-import java.util.concurrent.atomic.AtomicLong
 import java.util.stream.Stream
 
-class Wipr : CliktCommand() {
+class Wrekk : CliktCommand() {
     private val gitlabServerUrl by option(help = "The GitLab server URL.").required()
     private val personalAccessToken by option(help = "The personal access token.").required()
     private val projectId by option(help = "The project ID.").long().required()
@@ -50,5 +49,5 @@ private fun PipelineApi.getPipelinesStream(
 ): Stream<Pipeline> = getPipelinesStream(projectId, PipelineFilter().apply(filter))
 
 fun main(args: Array<String>) {
-    Wipr().main(args)
+    Wrekk().main(args)
 }

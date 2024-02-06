@@ -1,4 +1,4 @@
-package io.github.helpermethod.wipr
+package io.github.helpermethod.wrekk
 
 import com.github.ajalt.clikt.testing.test
 import com.github.tomakehurst.wiremock.client.WireMock.delete
@@ -20,10 +20,10 @@ import org.junit.jupiter.params.provider.MethodSource
 import java.util.stream.Stream
 
 @WireMockTest
-class WiprTests {
+class WrekkrTests {
     @Test
     fun `should display usage instructions if no options are provided`() {
-        val result = Wipr().test()
+        val result = Wrekk().test()
 
         assertAll(
             { assertEquals(1, result.statusCode) },
@@ -31,7 +31,7 @@ class WiprTests {
                 assertTrue {
                     result.stderr.contains(
                         """
-                        Usage: wipr [<options>]
+                        Usage: wrekk [<options>]
 
                         Error: missing option --gitlab-server-url
                         Error: missing option --personal-access-token
@@ -53,7 +53,7 @@ class WiprTests {
         )
 
         val result =
-            Wipr().test(
+            Wrekk().test(
                 "--gitlab-server-url=${wireMockRuntimeInfo.httpBaseUrl}",
                 "--personal-access-token=glpat-r7nNUMgXSY-4PFwsaEvN",
                 "--project-id=$projectId",

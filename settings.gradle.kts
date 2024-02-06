@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "wipr"
+rootProject.name = "wrekk"

@@ -1,0 +1,929 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"[Ljava.lang.Class;"
+},
+{
+  "name":"[Ljava.lang.Object;"
+},
+{
+  "name":"[Ljava.util.HashMap$Node;"
+},
+{
+  "name":"[Lorg.eclipse.jetty.server.Handler;"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.module.jaxb.deser.DataHandlerJsonDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.module.jaxb.ser.DataHandlerJsonSerializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.client.BasicCredentials",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.common.Metadata",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.extension.Parameters",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.extension.ServeEventListener$RequestPhase",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.extension.ServeEventListenerDefinition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.ChunkedDribbleDelay",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.DelayDistribution",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.Fault",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.HttpHeadersJsonDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.HttpHeadersJsonSerializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.RequestMethod",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"fromString","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.ResponseDefinition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["int","java.lang.String","java.lang.String","com.fasterxml.jackson.databind.JsonNode","java.lang.String","java.lang.String","com.github.tomakehurst.wiremock.http.HttpHeaders","com.github.tomakehurst.wiremock.http.HttpHeaders","java.lang.Integer","com.github.tomakehurst.wiremock.http.DelayDistribution","com.github.tomakehurst.wiremock.http.ChunkedDribbleDelay","java.lang.String","java.lang.String","com.github.tomakehurst.wiremock.http.Fault","java.util.List","com.github.tomakehurst.wiremock.extension.Parameters","java.lang.Boolean"] }, {"name":"getAdditionalProxyRequestHeaders","parameterTypes":[] }, {"name":"getBase64Body","parameterTypes":[] }, {"name":"getBody","parameterTypes":[] }, {"name":"getBodyFileName","parameterTypes":[] }, {"name":"getChunkedDribbleDelay","parameterTypes":[] }, {"name":"getDelayDistribution","parameterTypes":[] }, {"name":"getFault","parameterTypes":[] }, {"name":"getFixedDelayMilliseconds","parameterTypes":[] }, {"name":"getHeaders","parameterTypes":[] }, {"name":"getJsonBody","parameterTypes":[] }, {"name":"getProxyBaseUrl","parameterTypes":[] }, {"name":"getProxyUrlPrefixToRemove","parameterTypes":[] }, {"name":"getStatus","parameterTypes":[] }, {"name":"getStatusMessage","parameterTypes":[] }, {"name":"getTransformerParameters","parameterTypes":[] }, {"name":"getTransformers","parameterTypes":[] }, {"name":"isFromConfiguredStub","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.jetty11.WritableFileOrClasspathKeyStoreSource",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","char[]"] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.junit5.WireMockExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.junit5.WireMockTest",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.AnythingPattern",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.ContentPatternDeserialiser",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.CustomMatcherDefinition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.EqualToPattern",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.MultiValuePatternDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.MultipartValuePattern",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.MultipartValuePattern$MatchingType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.NamedValueMatcher",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.RegexPattern",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.RequestPattern",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","com.github.tomakehurst.wiremock.matching.StringValuePattern","java.lang.Integer","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","com.github.tomakehurst.wiremock.http.RequestMethod","java.util.Map","java.util.Map","java.util.Map","java.util.Map","java.util.Map","com.github.tomakehurst.wiremock.client.BasicCredentials","java.util.List","com.github.tomakehurst.wiremock.matching.CustomMatcherDefinition","java.util.List"] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.StringValuePatternJsonDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.ValueMatcher",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.stubbing.StubMapping",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"setId","parameterTypes":["java.util.UUID"] }, {"name":"setInsertionIndex","parameterTypes":["long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setPersistent","parameterTypes":["java.lang.Boolean"] }, {"name":"setRequest","parameterTypes":["com.github.tomakehurst.wiremock.matching.RequestPattern"] }, {"name":"setResponse","parameterTypes":["com.github.tomakehurst.wiremock.http.ResponseDefinition"] }, {"name":"setUuid","parameterTypes":["java.util.UUID"] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.stubbing.StubMappingCollection",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ARCFOURCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESedeCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.jna.CallbackProxy",
+  "methods":[{"name":"callback","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.sun.jndi.url.java.javaURLContextFactory"
+},
+{
+  "name":"com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.github.helpermethod.plumber.PlumberTests",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"parameters","parameterTypes":[] }, {"name":"should delete expired pipelines","parameterTypes":["java.lang.String","int","com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo"] }, {"name":"should display usage instructions if no options are provided","parameterTypes":[] }]
+},
+{
+  "name":"io.github.helpermethod.plumber.PlumberTests$Companion",
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.awt.image.RenderedImage"
+},
+{
+  "name":"java.io.Serializable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Cloneable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Enum"
+},
+{
+  "name":"java.lang.Float",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Long",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"equals","parameterTypes":["java.lang.Object"] }, {"name":"hashCode","parameterTypes":[] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Short",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.System",
+  "methods":[{"name":"getSecurityManager","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}],
+  "methods":[{"name":"isVirtual","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Throwable",
+  "methods":[{"name":"addSuppressed","parameterTypes":["java.lang.Throwable"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandle",
+  "methods":[{"name":"bindTo","parameterTypes":["java.lang.Object"] }, {"name":"invokeWithArguments","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"lookup","parameterTypes":[] }, {"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "methods":[{"name":"findSpecial","parameterTypes":["java.lang.Class","java.lang.String","java.lang.invoke.MethodType","java.lang.Class"] }, {"name":"in","parameterTypes":["java.lang.Class"] }, {"name":"unreflectSpecial","parameterTypes":["java.lang.reflect.Method","java.lang.Class"] }]
+},
+{
+  "name":"java.lang.invoke.MethodType",
+  "methods":[{"name":"methodType","parameterTypes":["java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getUptime","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Method",
+  "methods":[{"name":"isDefault","parameterTypes":[] }, {"name":"isVarArgs","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Buffer"
+},
+{
+  "name":"java.security.AccessController",
+  "methods":[{"name":"doPrivileged","parameterTypes":["java.security.PrivilegedAction"] }]
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.util.AbstractMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.HashMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.HashSet",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.LinkedHashMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.LinkedHashSet"
+},
+{
+  "name":"java.util.Map",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.SequencedMap",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.concurrent.ArrayBlockingQueue"
+},
+{
+  "name":"java.util.concurrent.Executors",
+  "methods":[{"name":"newVirtualThreadPerTaskExecutor","parameterTypes":[] }]
+},
+{
+  "name":"java.util.concurrent.ForkJoinTask",
+  "fields":[{"name":"aux"}, {"name":"status"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"java.util.concurrent.locks.AbstractOwnableSynchronizer"
+},
+{
+  "name":"java.util.concurrent.locks.AbstractQueuedSynchronizer"
+},
+{
+  "name":"java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject"
+},
+{
+  "name":"java.util.concurrent.locks.ReentrantLock"
+},
+{
+  "name":"java.util.concurrent.locks.ReentrantLock$NonfairSync"
+},
+{
+  "name":"java.util.concurrent.locks.ReentrantLock$Sync"
+},
+{
+  "name":"java.util.function.Consumer",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"javax.activation.DataSource"
+},
+{
+  "name":"javax.inject.Named",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"javax.inject.Singleton",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javax.naming.InitialContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"lookup","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"javax.xml.transform.Source"
+},
+{
+  "name":"javax.xml.transform.dom.DOMSource"
+},
+{
+  "name":"javax.xml.transform.sax.SAXSource"
+},
+{
+  "name":"javax.xml.transform.stream.StreamSource"
+},
+{
+  "name":"jdk.internal.misc.Unsafe"
+},
+{
+  "name":"kotlin.Metadata",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"kotlin.SafePublicationLazyImpl",
+  "fields":[{"name":"_value"}]
+},
+{
+  "name":"kotlin.annotation.MustBeDocumented",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"kotlin.annotation.Retention",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"kotlin.annotation.Target",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"kotlin.reflect.jvm.internal.ReflectionFactoryImpl"
+},
+{
+  "name":"org.eclipse.jetty.http.pathmap.PathSpecSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.servlets.CrossOriginFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.util.AsciiLowerCaseSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.util.TypeUtil",
+  "methods":[{"name":"getClassLoaderLocation","parameterTypes":["java.lang.Class"] }, {"name":"getCodeSourceLocation","parameterTypes":["java.lang.Class"] }, {"name":"getModuleLocation","parameterTypes":["java.lang.Class"] }, {"name":"getSystemClassLoaderLocation","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"org.gitlab4j.api.models.AbstractUser",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.gitlab4j.api.models.CustomAttribute",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gitlab4j.api.models.DetailedStatus",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gitlab4j.api.models.Identity",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gitlab4j.api.models.Pipeline",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setCreatedAt","parameterTypes":["java.util.Date"] }, {"name":"setId","parameterTypes":["java.lang.Long"] }, {"name":"setIid","parameterTypes":["java.lang.Long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setProjectId","parameterTypes":["java.lang.Long"] }, {"name":"setRef","parameterTypes":["java.lang.String"] }, {"name":"setSha","parameterTypes":["java.lang.String"] }, {"name":"setSource","parameterTypes":["java.lang.String"] }, {"name":"setStatus","parameterTypes":["org.gitlab4j.api.models.PipelineStatus"] }, {"name":"setUpdatedAt","parameterTypes":["java.util.Date"] }, {"name":"setWebUrl","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.gitlab4j.api.models.PipelineStatus",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"forValue","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.gitlab4j.api.models.User",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gitlab4j.api.utils.JacksonJson",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.hk2.internal.PerThreadContext",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.glassfish.jersey.client.ChunkedInputReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider","javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.client.ClientAsyncExecutor",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.client.ClientBackgroundScheduler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.client.DefaultClientBackgroundSchedulerProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.ContextInjectionResolverImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.Hk2InjectionManagerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.Hk2RequestScope",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.InstanceSupplierFactoryBridge",
+  "methods":[{"name":"provide","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.JerseyErrorService",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.RequestContext",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.jersey.process.internal.RequestScope"] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.JaxrsProviders",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider","javax.inject.Provider","javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.RuntimeDelegateImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.inject.Custom",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.jackson.JacksonFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.jackson.internal.DefaultJacksonJaxbJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.ws.rs.ext.Providers","javax.ws.rs.core.Configuration"] }, {"name":"findAndRegisterModules","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJaxbJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.MultiPartFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.ws.rs.ext.Providers","javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.MultiPartWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.ws.rs.ext.Providers"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.AbstractFormProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.message.internal.AbstractMessageReaderWriterProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.message.internal.BasicTypesMessageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.ByteArrayProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.DataSourceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.EnumMessageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.FileProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.FormMultivaluedMapProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.FormProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.InputStreamProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.ReaderProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.RenderedImageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$DomSourceReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$SaxSourceReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$SourceWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider","javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$StreamSourceReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.StreamingOutputProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.StringMessageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.process.internal.RequestScope",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.spi.AbstractThreadPoolProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.spi.ScheduledThreadPoolExecutorProvider",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"preDestroy","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.spi.ThreadPoolExecutorProvider",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"preDestroy","parameterTypes":[] }]
+},
+{
+  "name":"org.jvnet.hk2.internal.DynamicConfigurationServiceImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.hk2.api.ServiceLocator"] }]
+},
+{
+  "name":"org.jvnet.hk2.internal.ServiceLocatorRuntimeImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.hk2.api.ServiceLocator"] }]
+},
+{
+  "name":"org.osgi.framework.BundleReference"
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$TLSContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+}
+]
