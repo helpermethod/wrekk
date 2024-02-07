@@ -32,7 +32,7 @@ graalvmNative {
         metadataCopy {
             mergeWithExisting = true
             inputTaskNames.add("test")
-            outputDirectories.add("src/main/resources/META-INF/native-image/plumber")
+            outputDirectories.add("src/main/resources/META-INF/native-image")
         }
     }
     binaries {
