@@ -16,7 +16,7 @@ repositories {
 dependencies {
     implementation("org.gitlab4j:gitlab4j-api:5.5.0")
     implementation("com.github.ajalt.clikt:clikt:4.2.2")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
     testImplementation("org.wiremock:wiremock:3.3.1")
 }
 
