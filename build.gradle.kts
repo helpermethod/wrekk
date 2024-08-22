@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.0.10"
+    kotlin("jvm") version "2.0.20"
     application
     id("org.graalvm.buildtools.native") version "0.10.2"
     id("com.diffplug.spotless") version "6.25.0"
